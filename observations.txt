@@ -1,0 +1,8 @@
+n_neighbours = 10, n_pcs = 40 --------- silhouette score: 0.33
+n_neighbours = 100, n_pcs = 40 --------- silhouette score: 0.3711
+n_neighbours = 100, n_pcs = 31 --------- silhouette score: 0.38305
+n_neighbours = 500, n_pcs = 31 --------- silhouette score: 0.380
+n_neighbours = 250, n_pcs = 31 --------- silhouette score: 0.380
+
+they are all with paga implemented
+
