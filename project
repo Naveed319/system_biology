@@ -171,7 +171,7 @@ sc.pp.log1p(adata)
 #+END_SRC
 
 *** Identify highly-variable genes
-[[file:images/highly-variable-genes.png][Highly Variable Genes]]
+[[file:images/highly-variable-genes.png][Dispersion of Genes in the dataset]]
 #+BEGIN_SRC python :session my_session :results output
 sc.pp.highly_variable_genes(adata, min_mean=0.0125, max_mean=3, min_disp=0.5)
 sc.pl.highly_variable_genes(adata)
@@ -263,7 +263,7 @@ The silhouette score metric is used to measure the quality of clustering results
 
 | n_neighbours | n_pcs | silhouette score            |
 |              |       | without PAGA | with PAGA    |
-|--------------+-------+--------------+------------- |
+|--------------+-------+--------------+--------------|
 |           10 |    40 |0.31          |0.33          |
 |          100 |    40 |0.362         |0.3711        |
 |          100 |    31 |0.373         |0.3831        |
